@@ -1,0 +1,197 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: #000000;
+    font-family: 'Pretendard-Regular', cursive;
+}
+
+/* 네비게이션 영역 */
+.navbar, .offcanvas {
+    background-color: #000000;
+}
+.nav-link:hover,
+.nav-link.active {
+    color: #5086EC !important;
+}
+#stickynav {
+    position: sticky;
+    top: 15%;
+}
+
+/* 헤더 영역 */
+#home {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url(images/main.jpg);
+    background-size: cover;
+    background-position: center top;
+}
+
+#cover {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)), url(images/gdsc-cover.png);
+    background-size: cover;
+    background-position: top;
+}
+
+#solchall {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(images/solution-cover.png);
+    background-size: cover;
+    background-position: center top;
+}
+
+#department-cover {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 90%, rgba(0, 0, 0, 0.9)), url(images/department-cover.png);
+    background-size: cover;
+    background-position: center top;
+}
+
+.btn {
+    scale: 1.3;
+    color: #FFFFFF;
+    font-weight: 500;
+    background-color: #5086EC;
+}
+.butn {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.btn:hover {
+    background-color: #FFFFFF;
+    color: #5086EC;
+}
+.butn:hover {
+    color: #5086EC;
+}
+
+/* 부서 영역 */
+.department {
+    position: relative;
+}
+.department img {
+    -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.department:hover img {
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+    opacity: 0.5;
+}
+.image_text_android {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    color: #58A55C;
+    font-weight: 1000;
+    font-style: bold;
+    opacity: 0;
+}
+.image_text_ux-ui {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    color: #EEAC3C;
+    font-weight: 1000;
+    font-style: bold;
+    opacity: 0;
+}
+.image_text_ai {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    color: #5086EC;
+    font-weight: 1000;
+    font-style: bold;
+    opacity: 0;
+}
+.image_text_server {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    color: #D95040;
+    font-weight: 1000;
+    font-style: bold;
+    opacity: 0;
+}
+.department:hover h1 {
+    opacity: 100;
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+
+/* 푸터 영역 */
+.footer {
+    background-color: #202020;
+    font-size: medium;
+}
+.icon {
+    background-color: transparent;
+}
+
+.topbtn {
+    background-color: #202020;
+    color: white;
+}
+.topbtn:hover {
+    background-color: white;
+    color: #000000;
+}
+
+/* 목표 영역 */
+#goal1:hover {
+    transition: all 0.2s linear;
+    background-color: #EEAC3C;
+}
+#goal2:hover {
+    transition: all 0.2s linear;
+    background-color: #58A55C;
+}
+#goal3:hover {
+    transition: all 0.2s linear;
+    background-color: #D95040;
+}
+
+/* 규칙과 문화 영역 */
+.culture {
+    transition: all 0.3s linear;
+}
+
+.culture:hover {
+    transform: scale(1.1);
+}
+
+/* 메리트 영역 */
+#win1:hover {
+    transition: all 0.2s linear;
+    background-color: #EEAC3C;
+}
+#win2:hover {
+    transition: all 0.2s linear;
+    background-color: #58A55C;
+}
+#win3:hover {
+    transition: all 0.2s linear;
+    background-color: #D95040;
+}
+
+/* 평가 기준 영역 */
+#evaluation1:hover {
+    transition: all 0.2s linear;
+    background-color: #FFFFFF;
+    color: #000000;
+    transform: scale(1.1);
+}
+#evaluation2:hover {
+    transition: all 0.2s linear;
+    background-color: #FFFFFF;
+    color: #000000;
+    transform: scale(1.1);
+}

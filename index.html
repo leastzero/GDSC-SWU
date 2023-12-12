@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>GDSC SWU</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--내비게이션 바 시작-->
+        <nav class="navbar navbar-dark fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand mx-4" href="index.html"><img src="images/gdsc-logo.png"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"><a class="nav-link active" aria-current="page" href="index.html"><img src="images/gdsc-logo.png"></a></h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link" href="about.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="department.html">부서</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="solution-challenge.html">솔루션 챌린지</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="recruitment.html">지원하기</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        <!--내비게이션 바 끝-->
+
+        <!-- 헤더 영역 시작 -->
+        <header id="home" class="d-flex flex-column justify-content-center align-items-center vh-100 text-white mb-5">
+          <h1 class="display-3 fw-bold mb-2">GDSC SWU</h1>
+          <h5 class="fs-3 mb-5">Google Developer Student Club</h5>
+          <p class="lead text-center mb-5">GDSC SWU는 Google Developers가 후원하는 서울여자대학교 학생 개발자들을 위한 대학생 커뮤니티 그룹입니다. <br>
+            현실에서 마주하는 사회 문제의 해결 방안을 제시함으로써 사회에 긍정적인 영향을 미치는 개발자 커뮤니티가 GDSC SWU의 비전입니다.</p>
+          <button type="button" class="btn rounded-pill mt-3 px-4"><a href="about.html" class="butn">ABOUT</a></button>
+        </header>
+      <!-- 헤더 영역 끝 -->
+
+
+      <!-- 부서 섹션 시작 -->
+        <section class="py-5 text-white" id="department">
+          <div class="container overflow-hidden">
+              <div class="text-center py-5">
+                  <h1 class="display-4 fw-bold m-5">부서 소개</h1>
+                  <h4 class="fw-bold mb-3">GDSC SWU는 총 4개의 부서로 이루어져 있어요.</h4>
+                  <p>* GDSC SWU 2기 기준 *</p>
+              </div>
+              <div class="row mx-5 mb-5 pb-5 g-5">
+                  <div class="department col-sm-6 col-lg-6">
+                      <img src="images/android.jpg" alt="포트폴리오 사진 1" class="img-fluid img-thumbnail">
+                      <h1 class="image_text_android" style="font-size:50px">ANDROID</h1>
+                    </div>
+                  <div class="department col-sm-6 col-lg-6">
+                      <img src="images/ai.jpg" alt="포트폴리오 사진 3" class="img-fluid img-thumbnail">
+                      <h1 class="image_text_ai" style="font-size:50px">AI/ML</h1>
+                  </div>
+                  <div class="department col-sm-6 col-lg-6">
+                      <img src="images/server.png" alt="포트폴리오 사진 4" class="img-fluid img-thumbnail">
+                      <h1 class="image_text_server" style="font-size:50px">SERVER</h1>
+                  </div>
+                  <div class="department col-sm-6 col-lg-6">
+                      <img src="images/ux-ui.jpg" alt="포트폴리오 사진 5" class="img-fluid img-thumbnail">
+                      <h1 class="image_text_ux-ui" style="font-size:50px">UX/UI</h1>
+                  </div>
+              </div>
+          </div>
+        </section>
+      <!-- 부서 섹션 끝 -->
+
+      <!-- 솔챌 섹션 시작 -->
+        <section class="container overflow-hidden text-white py-5" id="solution-challenge">
+          <div class="text-center py-5">
+              <h2 class="display-4 fw-bold m-5">솔루션 챌린지 아카이빙</h2>
+              <p class="lead mb-3">솔루션 챌린지란, <br>GDSC 소속 학생 한 명을 포함한 대학생 팀이 구글의 기술이나 플랫폼을 하나 이상 사용하여 사회 문제를 해결하는 솔루션을 만드는 대회입니다.</p>
+          </div>
+          <div id="carouselExampleAutoplaying" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active p-5">
+                <div class="row pb-5 gy-4">
+                  <div class="card col-sm-6 col-lg m-3 p-1">
+                    <img src="images/solution1.jpg" alt="솔루션 1" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fs-4 fw-bold">Safe Guard</h3>
+                        <p class="card-text">건설 및 제조업 현장 작업자의 <br>안전을 위한 서비스</p>
+                    </div>
+                  </div>
+                  <div class="card col-sm-6 col-lg m-3 p-1">
+                    <img src="images/solution2.jpg" alt="솔루션 2" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fs-4 fw-bold">Teen Helper</h3>
+                        <p class="card-text">10대 청소년들이 의료 정보를<br>쉽게 접근 할 수 있도록 하는 서비스</p>
+                    </div>
+                  </div>
+                  <div class="card col-sm-6 col-lg m-3 p-1">
+                    <img src="images/solution3.jpg" alt="솔루션 3" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fs-4 fw-bold">Silver Surfer</h3>
+                        <p class="card-text">노인들의 디지털 소외 문제를<br>해결하기 위한 서비스</p>
+                    </div>
+                  </div>
+                  <div class="card col-sm-6 col-lg m-3 p-1">
+                    <img src="images/solution4.jpg" alt="솔루션 4" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fs-4 fw-bold">MigrantLaw</h3>
+                        <p class="card-text">이주 노동자들을 위한<br>법률 안내 서비스</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item p-5">
+                <div class="row pb-5 gy-4">
+                  <div class="card col-sm-6 col-lg m-3 p-1">
+                    <img src="images/solution5.jpg" alt="솔루션 5" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fs-4 fw-bold">Medisight</h3>
+                        <p class="card-text">시각 장애인을 위한<br>맞춤형 위약품 관리 서비스</p>
+                    </div>
+                  </div>
+                  <div class="card col-sm-6 col-lg m-3 p-1">
+                    <img src="images/solution6.jpg" alt="솔루션 6" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fs-4 fw-bold">ChatBuddy</h3>
+                        <p class="card-text">청년 우울감 해결을 위한<br>AI 챗봇 서비스</p>
+                    </div>
+                  </div>
+                  <div class="card col-sm-6 col-lg m-3 p-1">
+                    <img src="images/solution7.jpg" alt="솔루션 7" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fs-4 fw-bold">KORefugee</h3>
+                        <p class="card-text">난민 재정착을 위한 도움 서비스</p>
+                    </div>
+                  </div>
+                  <div class="card col-sm-6 col-lg m-3 p-1 bg-dark">
+                    <a href="solution-challenge.html">
+                    <div class="card-body text-center">
+                        <h1 class="card-title text-white fw-bold position-absolute top-50 start-50 translate-middle">+</h1>
+                    </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </section>
+      <!-- 솔챌 섹션 끝 -->
+
+      <!-- 지원 섹션 시작 -->
+      <section class="py-5 text-white" id="recruitment">
+        <div class="container overflow-hidden">
+            <div class="text-center py-5">
+                <h1 class="display-4 fw-bold m-5">지원하기</h1>
+                <h4 class="fw-bold mb-3">GDSC SWU와 함께 성장할 멤버를 모집합니다.</h4>
+                <p>* 현재는 모집 기간이 아닙니다 *</p>
+            </div>
+            <div class="border border-light border-2 mx-5 py-5 rounded-4 row justify-content-center">
+              <div class="recruitment col-4">
+                <span class="rounded-pill py-2 px-4 bg-light text-black">NEXT</span>
+                <h1 class="fw-bold mt-4">GDSC SWU 3기</h1>
+                <h5 class="mt-5 pt-2">지원 기간 : 2024.08 예정</h5>
+                <h5 class="mb-1">모집 인원 : 각 부서당 7명 내외 / 총 30명 내외</h5>
+              </div>
+              <div class="col-4 position-relative">
+                <img src="images/gdsc-logo-large.png" alt="지원 사진" class="img-fluid ms-5 position-absolute top-50 start-50 translate-middle opacity-75">
+              </div>
+            </div>
+          </div>
+          <div class="p-4 m-5 text-center">
+            <button type="button" class="btn btn-lg rounded-3 px-5"><a href="recruitment.html" class="butn">지원하기</a></button>
+          </div>
+      </section>
+      <!-- 지원 섹션 끝 -->
+
+      <!-- 풋터 시작 -->
+        <footer class="footer text-white text-center mt-5">
+          <div class="container px-5">
+              <p class="pt-4">GDSC SWU 채널 바로가기</p>
+              <div class="d-flex justify-content-center mb-4">
+                <a href="https://www.youtube.com/@gdsc_swu/featured" target="_blank"
+                    class="icon btn rounded-circle mx-1"><i class="bi bi-youtube"></i></a>
+                <a href="https://www.facebook.com/googledsc.swu" target="_blank" 
+                    class="icon btn rounded-circle mx-1"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/gdsc_swu/?igshid=YmMyMTA2M2Y%3D" target="_blank"
+                     class="icon btn rounded-circle mx-1"><i class="bi bi-instagram"></i></a>
+                <a href="https://github.com/GDSC-SWU"target="_blank"
+                     class="icon btn rounded-circle mx-1"><i class="bi bi-github"></i></a>
+            </div>
+              <p class="py-4 mb-0 text-center" style="font-size: x-small;">Copyright <i class="bi bi-c-circle"></i> 2023 Designed by GDSC SWU</p>
+          </div>
+      </footer>
+      <!-- 풋터 끝 -->
+
+
+      <!-- TOP 이동 버튼 시작 -->
+      <span id="top-link-block" class="fixed-bottom text-end m-5">
+        <a href="#top" class="topbtn btn rounded-pill" onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+            <i class="glyphicon glyphicon-chevron-up bi bi-arrow-up-circle"></i>
+        </a>
+      </span>
+        <!-- TOP 이동 버튼 끝 -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    </body>
+</html>

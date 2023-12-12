@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>GDSC SWU</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="text-white">
+        <!--내비게이션 바 시작-->
+        <nav class="navbar navbar-dark fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand mx-4" href="index.html"><img src="images/gdsc-logo.png"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"><a class="nav-link" href="index.html"><img src="images/gdsc-logo.png"></a></h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">ABOUT</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="department.html">부서</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="solution-challenge.html">솔루션 챌린지</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="recruitment.html">지원하기</a>
+                      </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        <!--내비게이션 바 끝-->
+
+        <!-- 지원 섹션 시작 -->
+        <section class="mt-5 py-5 text-white" id="recruitment">
+            <div class="container overflow-hidden">
+                <div class="text-center py-5">
+                    <h1 class="display-4 fw-bold mt-5 mb-4">지금은 모집기간이 아닙니다.</h1>
+                    <h4 class="mb-3">모집기간이 되면 메일로 알려드리겠습니다.</h4>
+                    <form class="row justify-content-center align-items-center">
+                        <div class="col-auto mt-4">
+                          <input type="email" class="form-control form-control-lg" id="exampleFormControlInput1" placeholder="메일을 입력해주세요" required>
+                        </div>
+                        <div class="col-auto mt-4">
+                          <button type="submit" class="btn">알림 신청하기</button>
+                        </div>
+                      </form>
+                </div>
+                <div class="border border-light border-1 m-5 pt-5 rounded-4 row justify-content-evenly">
+                <div class="recruitment col-4">
+                    <span class="rounded-pill py-2 px-4 bg-light text-black">NEXT</span>
+                    <h1 class="fw-bold mt-4 mb-5">GDSC SWU 3기</h1>
+                    <h5 class="mt-5 pt-2">지원 기간 : 2024.08 예정</h5>
+                    <h5 class="mb-1">모집 인원 : 각 부서당 7명 내외 / 총 30명 내외</h5>
+                    <button type="button" class="btn btn-lg rounded-3 mx-4 my-5 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal">지원하기</button>
+                </div>
+                <div class="col-4 position-relative">
+                    <img src="images/gdsc-logo-large.png" alt="지원 사진" class="img-fluid position-absolute top-50 start-50 translate-middle ms-5" style="scale: 1.4;">
+                </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header p-5">
+                        <h1 class="fs-5 text-black" id="exampleModalLabel">지금은 모집기간이 아닙니다.</h1>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" data-bs-dismiss="modal">Close</button>
+                      </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <!-- 지원 섹션 끝 -->
+
+        <!-- 자격요건 섹션 시작 -->
+        <section class="mt-5 py-5 text-white" id="recruitment">
+            <div class="container overflow-hidden">
+                <div class="p-5">
+                    <h1 class="display-4 fw-bold mb-3">자격 요건</h1>
+                    <h5 class="mb-5">GDSC SWU가 함께하고 싶은 슈니들</h5>
+                    <div class="fs-4 my-5 py-3 text-start">
+                        <i class="bi bi-check-lg"></i><span class="m-5">자신의 분야에 대한 <b>열정</b>을 가지고 <b>주체적인 삶</b>을 살아가는 개발자</span><br>
+                        <i class="bi bi-check-lg"></i><span class="m-5">자신의 결과물을 통해 <b>사회에 긍정적인 영향</b>을 미치고 싶어하는 개발자</span><br>
+                        <i class="bi bi-check-lg"></i><span class="m-5"><b>협업과 소통</b>의 중요성을 알고 이를 실천하는 개발자</span><br>
+                        <i class="bi bi-check-lg"></i><span class="m-5">프로젝트를 통해 <b>창의적인 아이디어</b>를 현실로 구현하고 싶은 개발자</span><br>
+                        <i class="bi bi-check-lg"></i><span class="m-5">다양한 프로젝트와 해커톤 등으로 <b>커리어</b>를 쌓고 싶은 개발자</span><br>
+                        <i class="bi bi-check-lg"></i><span class="m-5">특정 분야에 대한 깊은 지식이 있거나 배우고 성장하려는 <b>의지가 강한</b> 개발자</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 자격요건 섹션 끝 -->
+
+        <!-- 질문 섹션 시작 -->
+        <section class="my-5 text-white" id="recruitment">
+            <div class="container overflow-hidden">
+                <div class="p-5">
+                    <h1 class="display-4 fw-bold mb-3">Q&A</h1>
+                    <h5 class="mb-5">자주 묻는 질문</h5>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                              Q. Core Member는 개발 및 실력이 중요한가요?
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <b>A.</b> Member가 스터디와 프로젝트를 진행하는 과정에서 길을 잃지 않게 이끌어주면서 GDSC SWU의 운영진으로 활동하는 것이 Core Member의 역할입니다.
+                              Core Member를 선발할 때 지원자의 개발 실력(UX/UI 제외)과 경험, 그리고 GDSC SWU에 많은 시간 투자가 가능한지, GDSC SWU의 비전을 함께 공유할 수 있는지를 중요한 요소로 볼 예정입니다.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Q. Core Member로 지원하기에는 실력이 부족한 것 같은데 지원해도 될까요?
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <b>A.</b> 지원하려는 부서와 관련된 경험과 GDSC SWU에 많은 시간 투자를 할만큼 열정이 있다면 주저하지 말고 지원해주세요! 선발 과정에서 탈락을 하게 되더라도 Member로 다시 지원할 수 있습니다.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              Q. Member는 어느 정도의 실력이 필요한가요?
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <b>A.</b> Member의 경우 프로젝트 경험이 많이 없더라도 특정 기술을 배우고 싶은 열정과 스스로 공부할 수 있는 능력 등 앞으로의 성장 가능성을 중심으로 판단하여 선발합니다.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                                Q. 매주 하는 활동이 있나요?
+                              </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                  <b>A.</b> 격주 화요일 18:30부터 20:00까지 전체 미팅이 있습니다. 모든 멤버가 필참이며 경조사, 코로나 이외 개인사정으로 전체 미팅 횟수 중 20% 이상 결석 시 수료증이 발급되지 않습니다.
+                                  또한, 스터디는 매주 진행하며 요일은 추후 부서 별로 정하게 됩니다.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+                                Q. 면접 운영 방식은 어떻게 되나요?
+                              </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                  <b>A.</b> Core Member와 Lead가 면접관으로 참여하여 면접관과 지원자 비율이 3:2 또는 2:2로 진행될 예정입니다.
+                                  다만, 지원자 수에 따라 변동이 있을 수 있습니다.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
+                                Q. 담당 파트가 아닌 다른 부서의 스터디에도 참여할 수 있나요?
+                              </button>
+                            </h2>
+                            <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                  <b>A.</b> 가능합니다. 또한 정규 스터디 이외에도 GDSC SWU 멤버라면 누구나 자율 스터디 개설이 가능합니다.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseThree">
+                                Q. 지원서 답변의 분량 제한이 있나요?
+                              </button>
+                            </h2>
+                            <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                  <b>A.</b> 아니요. 정해진 분량은 없습니다. 자유롭게 적어주시면 됩니다.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseThree">
+                                Q. 운영회비는 어디에 쓰이나요?
+                              </button>
+                            </h2>
+                            <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                  <b>A.</b> GDSC SWU 행사 전반적으로 쓰입니다. 월간 자금 내역서 공개를 통해 세부 사항을 확인하실 수 있습니다.
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+        <!-- 질문 섹션 끝 -->
+
+
+        <!-- 풋터 시작 -->
+        <footer class="footer text-white text-center mt-5">
+            <div class="container px-5">
+                <p class="pt-4">GDSC SWU 채널 바로가기</p>
+                <div class="d-flex justify-content-center mb-4">
+                  <a href="https://www.youtube.com/@gdsc_swu/featured" target="_blank"
+                      class="icon btn rounded-circle mx-1"><i class="bi bi-youtube"></i></a>
+                  <a href="https://www.facebook.com/googledsc.swu" target="_blank" 
+                      class="icon btn rounded-circle mx-1"><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/gdsc_swu/?igshid=YmMyMTA2M2Y%3D" target="_blank"
+                       class="icon btn rounded-circle mx-1"><i class="bi bi-instagram"></i></a>
+                  <a href="https://github.com/GDSC-SWU"target="_blank"
+                       class="icon btn rounded-circle mx-1"><i class="bi bi-github"></i></a>
+              </div>
+                <p class="py-4 mb-0 text-center" style="font-size: x-small;">Copyright <i class="bi bi-c-circle"></i> 2023 Designed by GDSC SWU</p>
+            </div>
+        </footer>
+        <!-- 풋터 끝 -->
+
+        <!-- TOP 이동 버튼 시작 -->
+        <span id="top-link-block" class="fixed-bottom text-end m-5">
+            <a href="#top" class="topbtn btn rounded-pill" onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+                <i class="glyphicon glyphicon-chevron-up bi bi-arrow-up-circle"></i>
+            </a>
+        </span>
+        <!-- TOP 이동 버튼 끝 -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    </body>
+</html>
